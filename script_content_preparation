@@ -26,7 +26,7 @@ counties.at[290, 'lat'], counties.at[290,  'long'] = [53.33585172429097, 15.0457
 counties.at[311, 'lat'], counties.at[311,  'long'] = [50.84329934922147, 16.490396575475945]
 
 
-############### GETTING BACK TO ORIGINAL NAMES OF THE COUNTIES CAPITAL #################
+############### GETTING BACK TO ORIGINAL NAMES OF THE COUNTIES CAPITALS #################
 
 counties.at[7,  'miasto'] = "Białobrzegi"
 counties.at[18, 'miasto'] = "Bolesławiec"
