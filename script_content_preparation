@@ -1,4 +1,46 @@
 
+############################### FINAL SCRIPT ################################
+
+# Handly repaired data
+
+# Counties with discrapancy in the county-capital name
+counties.at[7,  'miasto'] = "Białobrzegi (radomskie)"
+counties.at[18, 'miasto'] = "Bolesławiec (jeleniog.)"
+counties.at[20, 'miasto'] = "Brodnica (toruńskie)"
+counties.at[23, 'miasto'] = "Brzeziny (skierniewic.)"
+counties.at[25, 'miasto'] = "Busko Zdrój"
+counties.at[37, 'miasto'] = "Chrzanów (katowickie)"
+
+# Counties where cities were not found and geographical coordinates are defined handly
+
+counties.at[14,  'lat'], counties.at[14,   'long'] = [50.09001524672474, 19.092549486466282]
+counties.at[85,  'lat'], counties.at[85,   'long'] = [51.97275530144941, 17.501590477175956]
+counties.at[111, 'lat'], counties.at[111,  'long'] = [53.40944432456515, 21.933104241846802]
+counties.at[197, 'lat'], counties.at[197,  'long'] = [50.87467629165172, 18.415830300769855]
+counties.at[198, 'lat'], counties.at[198,  'long'] = [51.20913080844487, 17.384974215796802]
+counties.at[203, 'lat'], counties.at[203,  'long'] = [50.80197125313555, 21.42375324356977 ]
+counties.at[268, 'lat'], counties.at[268,  'long'] = [53.45091145515121, 17.53148072591074 ]
+counties.at[278, 'lat'], counties.at[278,  'long'] = [54.36216525685458, 16.67742568094564 ]
+counties.at[279, 'lat'], counties.at[279,  'long'] = [52.35112135564631, 14.560241193047476]
+counties.at[290, 'lat'], counties.at[290,  'long'] = [53.33585172429097, 15.04570363830838 ]
+counties.at[311, 'lat'], counties.at[311,  'long'] = [50.84329934922147, 16.490396575475945]
+
+
+############### GETTING BACK TO ORIGINAL NAMES OF THE COUNTIES CAPITAL #################
+
+counties.at[7,  'miasto'] = "Białobrzegi"
+counties.at[18, 'miasto'] = "Bolesławiec"
+counties.at[20, 'miasto'] = "Brodnica"
+counties.at[23, 'miasto'] = "Brzeziny"
+counties.at[25, 'miasto'] = "Busko Zdrój"
+counties.at[37, 'miasto'] = "Chrzanów"
+
+
+########################################################################################
+################################### SKETCH BOOK ########################################
+########################################################################################
+
+
 # Records requiring changing the city name
 
 7,   Record: [], miasto: Białobrzegi (radomskie)	, powiat:powiat białobrzeski
@@ -57,44 +99,6 @@ counties.at[290, 'lat'] = 15.04570363830838
 counties.at[311, 'lat'] = 16.490396575475945
 
 
-
-
-
-############################### FINAL SCRIPT ################################
-
-# Handly repaired data
-
-# Counties with discrapancy in the county-capital name
-counties.at[7,  'miasto'] = "Białobrzegi (radomskie)"
-counties.at[18, 'miasto'] = "Bolesławiec (jeleniog.)"
-counties.at[20, 'miasto'] = "Brodnica (toruńskie)"
-counties.at[23, 'miasto'] = "Brzeziny (skierniewic.)"
-counties.at[25, 'miasto'] = "Busko Zdrój"
-counties.at[37, 'miasto'] = "Chrzanów (katowickie)"
-
-# Counties where cities were not found and geographical coordinates are defined handly
-
-counties.at[14,  'lat'], counties.at[14,   'long'] = [50.09001524672474, 19.092549486466282]
-counties.at[85,  'lat'], counties.at[85,   'long'] = [51.97275530144941, 17.501590477175956]
-counties.at[111, 'lat'], counties.at[111,  'long'] = [53.40944432456515, 21.933104241846802]
-counties.at[197, 'lat'], counties.at[197,  'long'] = [50.87467629165172, 18.415830300769855]
-counties.at[198, 'lat'], counties.at[198,  'long'] = [51.20913080844487, 17.384974215796802]
-counties.at[203, 'lat'], counties.at[203,  'long'] = [50.80197125313555, 21.42375324356977 ]
-counties.at[268, 'lat'], counties.at[268,  'long'] = [53.45091145515121, 17.53148072591074 ]
-counties.at[278, 'lat'], counties.at[278,  'long'] = [54.36216525685458, 16.67742568094564 ]
-counties.at[279, 'lat'], counties.at[279,  'long'] = [52.35112135564631, 14.560241193047476]
-counties.at[290, 'lat'], counties.at[290,  'long'] = [53.33585172429097, 15.04570363830838 ]
-counties.at[311, 'lat'], counties.at[311,  'long'] = [50.84329934922147, 16.490396575475945]
-
-
-############### GETTING BACK TO ORIGINAL NAMES OF THE COUNTIES CAPITAL #################
-
-counties.at[7,  'miasto'] = "Białobrzegi"
-counties.at[18, 'miasto'] = "Bolesławiec"
-counties.at[20, 'miasto'] = "Brodnica"
-counties.at[23, 'miasto'] = "Brzeziny"
-counties.at[25, 'miasto'] = "Busko Zdrój"
-counties.at[37, 'miasto'] = "Chrzanów"
 
 
 
