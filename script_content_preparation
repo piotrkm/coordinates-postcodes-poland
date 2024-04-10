@@ -1,0 +1,57 @@
+
+# Records requiring changing the city name
+
+7,   Record: [], miasto: Białobrzegi (radomskie)	, powiat:powiat białobrzeski
+18,  Record: [], miasto: Bolesławiec (jeleniog.)	, powiat:powiat bolesławiecki
+20,  Record: [], miasto: Brodnica (toruńskie)		, powiat:powiat brodnicki
+23,  Record: [], miasto: Brzeziny (skierniewic.)	, powiat:powiat brzeziński
+25,  Record: [], miasto: Busko Zdrój				, powiat:powiat buski
+37,  Record: [], miasto: Chrzanów (katowickie)		, powiat:powiat chrzanowski
+
+counties.at[7,  'miasto'] = "Białobrzegi (radomskie)"
+counties.at[18, 'miasto'] = "Bolesławiec (jeleniog.)"
+counties.at[20, 'miasto'] = "Brodnica (toruńskie)"
+counties.at[23, 'miasto'] = "Brzeziny (skierniewic.)"
+counties.at[25, 'miasto'] = "Busko Zdrój"
+counties.at[37, 'miasto'] = "Chrzanów (katowickie)"
+
+
+
+
+85,  Record: [], miasto: Jarocin			, powiat:powiat jarociński
+111, Record: [], miasto: Kolno				, powiat:powiat kolneński
+197, Record: [], miasto: Olesno				, powiat:powiat oleski
+198, Record: [], miasto: Oleśnica			, powiat:powiat oleśnicki
+203, Record: [], miasto: Opatów				, powiat:powiat opatowski
+268, Record: [], miasto: Sępolno Krajeńskie	, powiat:powiat sępoleński
+278, Record: [], miasto: Sławno				, powiat:powiat sławieński
+279, Record: [], miasto: Słubice			, powiat:powiat słubicki
+290, Record: [], miasto: Stargard			, powiat:powiat stargardzki
+311, Record: [], miasto: Świdnica			, powiat:powiat świdnicki
+
+
+
+
+counties.at[14,  'long'] = 50.09001524672474, 19.092549486466282
+counties.at[85,  'long'] = 51.97275530144941, 17.501590477175956
+counties.at[111, 'long'] = 53.40944432456515, 21.933104241846802
+counties.at[197, 'long'] = 50.87467629165172, 18.415830300769855
+counties.at[198, 'long'] = 51.20913080844487, 17.384974215796802
+counties.at[203, 'long'] = 50.80197125313555, 21.42375324356977
+counties.at[268, 'long'] = 53.45091145515121, 17.53148072591074
+counties.at[278, 'long'] = 54.36216525685458, 16.67742568094564
+counties.at[279, 'long'] = 52.35112135564631, 14.560241193047476
+counties.at[290, 'long'] = 53.33585172429097, 15.04570363830838
+counties.at[311, 'long'] = 50.84329934922147, 16.490396575475945
+
+counties.at[14,  'lat'] = 19.092549486466282
+counties.at[85,  'lat'] = 17.501590477175956
+counties.at[111, 'lat'] = 21.933104241846802
+counties.at[197, 'lat'] = 18.415830300769855
+counties.at[198, 'lat'] = 17.384974215796802
+counties.at[203, 'lat'] = 21.42375324356977
+counties.at[268, 'lat'] = 17.53148072591074
+counties.at[278, 'lat'] = 16.67742568094564
+counties.at[279, 'lat'] = 14.560241193047476
+counties.at[290, 'lat'] = 15.04570363830838
+counties.at[311, 'lat'] = 16.490396575475945
